@@ -1,65 +1,64 @@
 # # Booking-dataset-samples
 
-<h2>A sample dataset of 1001 Booking listings</h2>
+<h2>1001件のBooking掲載情報からなるサンプルデータセット</h2>
 
 ![Booking dataset header](https://github.com/luminati-io/Booking-dataset-sample/blob/main/Booking-datasets.png)
 
-A Booking dataset sample of over 1000 records. Dataset was extracted using the <b>Bright Data API</b>.
+1000件超のレコードを含むBookingデータセットのサンプルです。データセットは <b>Bright Data API</b> を使用して抽出されました。
 
-<h2>Some of the data points that are included in the Booking dataset:</h2>
+<h2>Bookingデータセットに含まれるデータポイントの一部:</h2>
 
-* ```link```: Link to the property listing
-* ```location```: General area or destination of the property
-* ```check_in```: Check-in date for the booking
-* ```check_out```: Check-out date for the booking
-* ```adults```: Number of adults included in the booking
-* ```children```: Number of children included in the booking
-* ```rooms```: Number of rooms booked
-* ```id```: Unique identifier for the listing
-* ```title```: Title or name of the property
-* ```address```: Full address of the property
-* ```city```: City where the property is located
-* ```review_score```: Average review score from guests
-* ```review_count```: Total number of reviews for the listing
-* ```image```: Link to the property's image
-* ```final_price```: Total price after discounts and taxes
-* ```original_price```: Base price before discounts
-* ```currency```: Currency used for the pricing
-* ```tax_description```: Details about applicable taxes
-* ```nb_livingrooms```: Number of living rooms in the property
-* ```nb_kitchens```: Number of kitchens in the property
-* ```nb_bedrooms```: Number of bedrooms in the property
-* ```nb_all_beds```: Total number of beds available
-* ```full_location```: Complete address with detailed location information
-* ```no_prepayment```: Indicates if prepayment is not required
-* ```free_cancellation```: Indicates if free cancellation is available
+* ```link```: 物件掲載ページへのリンク
+* ```location```: 物件の一般的なエリアまたは目的地
+* ```check_in```: 予約のチェックイン日
+* ```check_out```: 予約のチェックアウト日
+* ```adults```: 予約に含まれる大人の人数
+* ```children```: 予約に含まれる子どもの人数
+* ```rooms```: 予約した部屋数
+* ```id```: 掲載情報の一意識別子
+* ```title```: 物件のタイトルまたは名称
+* ```address```: 物件の完全な住所
+* ```city```: 物件が所在する都市
+* ```review_score```: 宿泊者による平均レビュー評価
+* ```review_count```: 掲載情報の総レビュー数
+* ```image```: 物件画像へのリンク
+* ```final_price```: 割引および税金適用後の合計価格
+* ```original_price```: 割引前の基本価格
+* ```currency```: 価格に使用される通貨
+* ```tax_description```: 適用される税金の詳細
+* ```nb_livingrooms```: 物件内のリビングルーム数
+* ```nb_kitchens```: 物件内のキッチン数
+* ```nb_bedrooms```: 物件内の寝室数
+* ```nb_all_beds```: 利用可能なベッド総数
+* ```full_location```: 詳細な所在地情報を含む完全な住所
+* ```no_prepayment```: 事前支払いが不要であることを示します
+* ```free_cancellation```: 無料キャンセルが利用可能であることを示します
 
-And a lot more.
+ほかにも多数あります。
 
-This is a sample subset which is derived from the "Booking listings"
-dataset which includes more than <b>30.4K records</b>.
+これは「Booking listings」データセットから派生したサンプルサブセットであり、当該データセットには <b>30.4K件超のレコード</b> が含まれます。
 
-Available dataset file formats: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
+利用可能なデータセットのファイル形式: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>。
 
-Dataset delivery type options: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
+データセットの配信タイプのオプション: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>。
 
-Update frequency: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
+更新頻度: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>。
 
-Data enrichment available as an addition to the data points extracted: <b>Based on request.</b>
+抽出されたデータポイントに追加できるデータエンリッチメント: <b>Based on request.</b>
 
-<b>[Get the full Booking dataset](https://brightdata.com/products/datasets/booking)</b>.
+<b>[完全版のBookingデータセットを入手する](https://brightdata.jp/products/datasets/booking)</b>。
 
-<h2>What are the Booking datasets use cases?</h2>
+<h2>Bookingデータセットのユースケースは何ですか？</h2>
 
-<h3>1. Market analysis</h3>
-Businesses analyze and forecast travel trends using Booking.com datasets. By examining booking volumes and patterns, companies can identify popular destinations, predict peak travel times, and optimize their offerings. Tourism agencies and hospitality businesses can leverage this data to customize travel packages.
+<h3>1. 市場分析</h3>
+企業はBooking.comデータセットを使用して、旅行トレンドを分析および予測します。予約件数やパターンを調べることで、人気の目的地を特定し、旅行のピーク時期を予測し、提供内容を最適化できます。観光局やホスピタリティ関連企業は、このデータを活用して旅行パッケージをカスタマイズできます。
 
-<h3>2. Competitive Analysis</h3>
-Businesses use Booking.com datasets for competitive benchmarking, comparing their performance against competitors by analyzing pricing, property ratings, and customer reviews. This helps them identify areas for improvement and better understand traveler preferences.
+<h3>2. 競合分析</h3>
+企業はBooking.comデータセットを競合ベンチマークに利用し、価格、物件評価、カスタマーレビューを分析することで競合他社と自社のパフォーマンスを比較します。これにより、改善点を特定し、旅行者の嗜好をより深く理解するのに役立ちます。
 
-<h3>3. Dynamic pricing</h3>
-Hotels and travel businesses acquire Booking.com datasets to optimize revenue and create dynamic pricing strategies. By analyzing booking data, they adjust prices in real-time based on changes in demand, market conditions, and competitor pricing. This approach helps maximize revenue per available room (RevPAR).
+<h3>3. ダイナミックプライシング</h3>
+ホテルや旅行関連企業は、収益最適化とダイナミックプライシング戦略の構築のためにBooking.comデータセットを取得します。予約データを分析することで、需要、市場状況、競合の価格設定の変化に応じてリアルタイムに価格を調整します。このアプローチにより、販売可能客室あたりの収益（RevPAR）を最大化できます。
 
-<h2>Free access to web scraping tools and datasets for academic researchers and NGOs</h2>
+<h2>学術研究者およびNGO向けのWebスクレイピングツールとデータセットへの無料アクセス</h2>
 
-The Bright Initiative offers access to Bright Data's <b>[Web Scraper APIs](https://brightdata.com/products/web-scraper)</b> and <b>[ready-to-use datasets](https://brightdata.com/products/datasets)</b> to leading academic faculties and researchers, NGOs and NPOs promoting various environmental and social causes. You can submit an application <b>[here](https://brightinitiative.com)</b>.
+Bright Initiativeは、主要な学術機関の学部・研究者、ならびに多様な環境・社会的課題を推進するNGOおよびNPOに対して、Bright Dataの <b>[Web Scraper APIs](https://brightdata.jp/products/web-scraper)</b> と <b>[すぐに使えるデータセット](https://brightdata.jp/products/datasets)</b> へのアクセスを提供します。申請は <b>[こちら](https://brightinitiative.com)</b> から提出できます。
