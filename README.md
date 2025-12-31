@@ -2,7 +2,7 @@
 
 <h2>1001件のBooking掲載情報からなるサンプルデータセット</h2>
 
-![Booking dataset header](https://github.com/luminati-io/Booking-dataset-sample/blob/main/Booking-datasets.png)
+![Booking dataset header](https://github.com/bright-jp/Booking-dataset-sample/blob/main/Booking-datasets.png)
 
 1000件超のレコードを含むBookingデータセットのサンプルです。データセットは <b>Bright Data API</b> を使用して抽出されました。
 
