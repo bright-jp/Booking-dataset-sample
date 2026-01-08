@@ -1,4 +1,4 @@
-# # Booking-dataset-samples
+# # Booking データセットサンプル
 
 <h2>1001件のBooking掲載情報からなるサンプルデータセット</h2>
 
